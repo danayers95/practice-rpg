@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ybba vs Abby</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="begin">
+        <button id="btn-begin">Let the battle begin</button>
+        <h1 style="color: red;">
+            If you're playing on phone, I recommend you playing with the screen sideways
+        </h1 style="color: red;">
+    </div>
+    <div class="container">
+        <div class="char-containers">
+            <div class="ch" id="ch1">
+                <img alt="" src="./resources/img/Dringle.webp" width="150">
+                <div class="name hp enemy">
+                </div>
+                <div class="hidden-info">
+                </div>
+                <div class="mana hidden-info">
+                </div>
+
+            </div>
+            <div class="battle-info ch1">
+                <br>
+            </div>
+            <div class="ch" id="ch2">
+                <img alt="" src="./resources/img/Drongle.webp" width="150">
+                <div class="name" class="ch2">
+                </div>
+                <div class="hp player" class="ch2">
+                </div>
+                <div class="mana">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="btn-attack" class="hide-after-player-turn">Attack</button>
+            <button id="btn-heal" class="hide-after-player-turn">Heal</button>
+            <button id="btn-defend" class="hide-after-player-turn">Defend</button>
+            <button id="btn-next">Next</button>
+            <button id="btn-stats" class="">Player Stats</button>
+            <textarea name="combat-log" class="combat-log" readonly id="cLog" cols="30" rows="10"></textarea>
+        </div>
+
+    </div>
+    <div class="stats">
+        <div class="hp-stat">
+        </div>
+        <div class="atk-stat">
+        </div>
+        <div class="def-stat">
+        </div>
+        <div class="mana-stat">
+        </div>
+        <div class="sp-stat">
+        </div>
+    </div>
+
+    <!-- <audio class="audio">
+        <source class="source-audio" src="" type="audio/mpeg">
+    </audio> -->
+    <h1 class="guide">URGENT NOTICE!</h1>
+    <p class="guide">You're Dringle and you have to defeat Drongle. He's gone full psycho, not even Sans could
+        stop him. You're the only one who can save us. In order to do that you've got to take actions. If you attack, you inflict damage to frisk, you may
+        deal critical hits (if the screen turns yellow you
+        or your opponent did a critical hit). You may heal. Useful when you have low hp, healing consumes 30 MP. If you
+        want to see your stats, then hit the player stats button. You can see Abby's name change color, that can tell
+        you many things, be sure to pay attention to that. Once you have chosen what to do, hit the next button to let
+        the battle continue (you may also skip your turn for whatever reason you want to by hitting it). We are counting
+        on you. The fate of the universe lies in your hands</p>
+    <script src="./app.js"></script>
+</body>
+
+</html>
